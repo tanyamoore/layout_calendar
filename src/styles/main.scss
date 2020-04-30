@@ -1,3 +1,87 @@
 body {
   margin: 0;
 }
+
+.calendar {
+  width: 707px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+
+@for $i from 1 through 31 {
+  .calendar {
+    & div:nth-child(#{$i}) {
+      background-color: #eee;
+      width: 100px;
+      height: 100px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      margin-right: 1px;
+      margin-bottom: 1px;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+    & div:nth-child(#{$i})::after {
+      content: "#{$i}";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.calendar div:hover {
+  background-color: pink;
+  position: relative;
+  bottom: 20px;
+}
+
+.calendar-30:nth-child(31),
+.calendar-29:nth-child(31),
+.calendar-29:nth-child(30),
+.calendar-28:nth-child(31),
+.calendar-28:nth-child(30),
+.calendar-28:nth-child(29) {
+  display: none;
+}
+
+.calendar-wed {
+  div:first-child {
+    margin-left: 101px;
+  }
+}
+
+.calendar-thu {
+  div:first-child {
+    margin-left: 202px;
+  }
+}
+
+.calendar-fri {
+  div:first-child {
+    margin-left: 303px;
+  }
+}
+
+.calendar-sat {
+  div:first-child {
+    margin-left: 404px;
+  }
+}
+
+.calendar-sun {
+  div:first-child {
+    margin-left: 505px;
+  }
+}
+
+.calendar-mon {
+  div:first-child {
+    margin-left: 606px;
+  }
+}
