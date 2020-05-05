@@ -49,12 +49,6 @@ body {
   bottom: 20px;
 }
 
-@for $i from 1 through 31 {
-  .calendar div:nth-child(#{$i})::after {
-    content: "#{$i}";
-  }
-}
-
 @for $i from 28 to 31 {
   .calendar-#{$i} div:nth-child(n + #{$i + 1}) {
     display: none;
