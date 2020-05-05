@@ -3,35 +3,35 @@ body {
 }
 
 .calendar {
-  width: 707px;
+
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: auto;
+  margin: 50px 300px;
+
+  div {
+    display: flex;
+    justify-content: center;
+    margin-right: 1px;
+    margin-bottom: 1px;
+
+    background-color: #eee;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
 @for $i from 1 through 31 {
-  .calendar {
-    & div:nth-child(#{$i}) {
-      background-color: #eee;
-      width: 100px;
-      height: 100px;
-      box-sizing: border-box;
-      border: 1px solid black;
-      margin-right: 1px;
-      margin-bottom: 1px;
-      font-family: Arial, sans-serif;
-      font-size: 30px;
-      display: flex;
-      text-align: center;
-      justify-content: center;
-    }
-    & div:nth-child(#{$i})::after {
-      content: "#{$i}";
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+  .calendar div:nth-child(#{$i})::after {
+    content: "#{$i}";
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -50,38 +50,18 @@ body {
   display: none;
 }
 
-.calendar-wed {
-  div:first-child {
-    margin-left: 101px;
+@each $dayofweek, $day in $week {
+  .calendar-#{$dayofweek} div:first-child {
+    margin-left: 101px * $day;
   }
 }
 
-.calendar-thu {
-  div:first-child {
-    margin-left: 202px;
-  }
-}
-
-.calendar-fri {
-  div:first-child {
-    margin-left: 303px;
-  }
-}
-
-.calendar-sat {
-  div:first-child {
-    margin-left: 404px;
-  }
-}
-
-.calendar-sun {
-  div:first-child {
-    margin-left: 505px;
-  }
-}
-
-.calendar-mon {
-  div:first-child {
-    margin-left: 606px;
-  }
-}
+$dayofweek: (
+  "mon": 0,
+  "tue": 1,
+  "wed": 2,
+  "thu": 3,
+  "fri": 4,
+  "sat": 5,
+  "sun": 6,
+);
