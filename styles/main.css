@@ -2,7 +2,6 @@ body {
   margin: 0; }
 
 .calendar {
-  width: 707px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,29 +10,23 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(1) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  margin: 50px 300px; }
+  .calendar div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background-color: #eee;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    text-align: center; }
 
 .calendar div:nth-child(1)::after {
   content: "1";
@@ -43,28 +36,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(2) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -81,28 +52,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(3) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(3)::after {
   content: "3";
   display: -webkit-box;
@@ -111,28 +60,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(4) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -149,28 +76,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(5) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(5)::after {
   content: "5";
   display: -webkit-box;
@@ -179,28 +84,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(6) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -217,28 +100,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(7) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(7)::after {
   content: "7";
   display: -webkit-box;
@@ -247,28 +108,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(8) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -285,28 +124,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(9) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(9)::after {
   content: "9";
   display: -webkit-box;
@@ -315,28 +132,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(10) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -353,28 +148,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(11) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(11)::after {
   content: "11";
   display: -webkit-box;
@@ -383,28 +156,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(12) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -421,28 +172,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(13) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(13)::after {
   content: "13";
   display: -webkit-box;
@@ -451,28 +180,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(14) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -489,28 +196,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(15) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(15)::after {
   content: "15";
   display: -webkit-box;
@@ -519,28 +204,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(16) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -557,28 +220,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(17) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(17)::after {
   content: "17";
   display: -webkit-box;
@@ -587,28 +228,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(18) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -625,28 +244,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(19) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(19)::after {
   content: "19";
   display: -webkit-box;
@@ -655,28 +252,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(20) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -693,28 +268,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(21) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(21)::after {
   content: "21";
   display: -webkit-box;
@@ -723,28 +276,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(22) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -761,28 +292,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(23) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(23)::after {
   content: "23";
   display: -webkit-box;
@@ -791,28 +300,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(24) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -829,28 +316,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(25) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(25)::after {
   content: "25";
   display: -webkit-box;
@@ -859,28 +324,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(26) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -897,28 +340,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(27) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(27)::after {
   content: "27";
   display: -webkit-box;
@@ -927,28 +348,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(28) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -965,28 +364,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(29) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(29)::after {
   content: "29";
   display: -webkit-box;
@@ -999,28 +376,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(30) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
 .calendar div:nth-child(30)::after {
   content: "30";
   display: -webkit-box;
@@ -1029,28 +384,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.calendar div:first-child {
-  margin-left: 101px; }
-
-.calendar div:nth-child(31) {
-  background-color: #eee;
-  width: 100px;
-  height: 100px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  border: 1px solid black;
-  margin-right: 1px;
-  margin-bottom: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
@@ -1072,30 +405,31 @@ body {
   position: relative;
   bottom: 20px; }
 
-.calendar-30:nth-child(31),
-.calendar-29:nth-child(31),
-.calendar-29:nth-child(30),
-.calendar-28:nth-child(31),
-.calendar-28:nth-child(30),
-.calendar-28:nth-child(29) {
+.calendar-28 div:nth-child(n + 29) {
   display: none; }
 
+.calendar-29 div:nth-child(n + 30) {
+  display: none; }
+
+.calendar-30 div:nth-child(n + 31) {
+  display: none; }
+
+.calendar-tue div:first-child {
+  margin-left: 103px; }
+
 .calendar-wed div:first-child {
-  margin-left: 101px; }
+  margin-left: 205px; }
 
 .calendar-thu div:first-child {
-  margin-left: 202px; }
+  margin-left: 307px; }
 
 .calendar-fri div:first-child {
-  margin-left: 303px; }
+  margin-left: 409px; }
 
 .calendar-sat div:first-child {
-  margin-left: 404px; }
+  margin-left: 511px; }
 
 .calendar-sun div:first-child {
-  margin-left: 505px; }
-
-.calendar-mon div:first-child {
-  margin-left: 606px; }
+  margin-left: 613px; }
 
 /*# sourceMappingURL=main.css.map */
